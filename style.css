@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    background-color: #844434;
+    height:7%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.header_p,  .search{
+    margin-top:1%;
+    margin-right: 15%;
+    color: #F7CF8D; 
+    text-decoration:none;
+    font-size: 30px;
+    height: 100%;
+}
+
+.header_img{
+    margin-right: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: #F7CF8D;
+}
+
+body{
+    background-color: rgb(255, 204, 187);
+}
+.h1{
+    text-align: center;
+    font-size: 30px;
+    color: #572d23;
+    background-color: #F7CF8D;
+}
+p{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.main{
+    display: flex;
+}
+
+.second{
+    display: flex;
+}
+
+.third{
+    display: flex;
+}
+button{
+    margin: 15%;
+    width: 20%;
+    height: 60px;
+    background-color: #572d23;
+    color: #F7CF8D;
+    border: none;
+}
+footer{
+    background-color: #844434;
+    align-items: center;
+    
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_img{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #F7CF8D;
+}
+
+/* Стиль по умолчанию для мобильных устройств */
+body {
+    font-size: 16px;
+}
+
+/* Для планшетов */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Для настольных компьютеров */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+}
+
+.item {
+    flex: 1 1 300px; /* Элементы будут занимать минимум 300px, но могут расти */
+}
+img {
+    max-width: 100%;
+    height: auto; /* Сохранение пропорций */
+}
